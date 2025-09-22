@@ -1,4 +1,4 @@
-## Apa itu Tailwind CSS?
+## Tailwind CSS?
 
 Tailwind CSS itu framework CSS yang **berbasis utility class**. Jadi, kita nggak perlu bikin banyak CSS manual, tapi cukup pakai kelas-kelas kecil yang sudah disediakan untuk styling. Contohnya, kalau mau kasih background hitam, tinggal pakai kelas `bg-black`. Kalau mau kasih padding, tinggal pakai `p-6`, dan seterusnya.
 
@@ -8,7 +8,7 @@ Kelebihan Tailwind:
 - Fleksibel dan mudah dikustomisasi.
 - Cocok buat yang suka ngoding cepat dan modular.
 
-## Apa itu Bootstrap CSS?
+## Bootstrap CSS?
 
 Bootstrap CSS adalah framework CSS yang sudah lama dan sangat populer. Bootstrap menyediakan:
 
@@ -16,7 +16,7 @@ Bootstrap CSS adalah framework CSS yang sudah lama dan sangat populer. Bootstrap
 - Sistem grid yang memudahkan bikin layout responsif.
 - Styling default yang rapi dan konsisten.
 
-## Implementasi dengan Tailwind CSS
+## Implementasi Tailwind CSS
 
 Pada versi Tailwind CSS, styling dilakukan dengan menggunakan kelas-kelas utility yang disediakan oleh Tailwind. Contohnya:
 
@@ -27,7 +27,7 @@ Pada versi Tailwind CSS, styling dilakukan dengan menggunakan kelas-kelas utilit
 
 Keuntungan menggunakan Tailwind adalah kemudahan dalam mengatur styling langsung di HTML tanpa perlu menulis CSS terpisah. Hal ini mempercepat proses pengembangan dan memudahkan penyesuaian tampilan.
 
-## Implementasi dengan Bootstrap CSS
+## Implementasi Bootstrap CSS
 
 Versi Bootstrap menggunakan framework Bootstrap 5 yang menyediakan sistem grid dan komponen siap pakai. Struktur halaman menggunakan:
 
@@ -37,7 +37,7 @@ Versi Bootstrap menggunakan framework Bootstrap 5 yang menyediakan sistem grid d
 
 Karena Bootstrap menggunakan pendekatan komponen dan grid, styling tambahan seperti warna latar dan border dibuat di file CSS eksternal (`styles-bootstrap.css`). Hal ini membuat kode HTML lebih bersih dan terstruktur.
 
-## Struktur Proyek
+## Struktur
 
 1. **Tailwind CSS**  
    - HTML menggunakan kelas-kelas Tailwind untuk styling.  
@@ -56,13 +56,12 @@ Karena Bootstrap menggunakan pendekatan komponen dan grid, styling tambahan sepe
 - `styles.css` — file CSS khusus untuk styling tambahan di versi Bootstrap.  
 - Folder `foto/` — berisi gambar profil dan foto postingan yang dipakai di halaman.
 
-- **Tailwind CSS** ngajarin kita cara styling yang sangat modular dan cepat, cocok buat yang suka custom desain.  
-- **Bootstrap CSS** ngajarin kita cara bikin layout dan komponen dengan cepat dan konsisten, cocok buat prototyping dan proyek yang butuh standar UI.  
+- **Tailwind CSS** ngajarin cara styling yang sangat modular dan cepat, cocok buat yang suka custom desain.  
+- **Bootstrap CSS** ngajarin cara bikin layout dan komponen dengan cepat dan konsisten, cocok buat prototyping dan proyek yang butuh standar UI.  
 - Dengan belajar keduanya, kita jadi lebih fleksibel dan paham berbagai cara bikin tampilan web.
 
 Halaman profil Instagram yang dibuat terdiri dari beberapa bagian utama:
 
-- Sidebar navigasi dengan menu Instagram seperti Home, Search, Explore, dll.
 - Bagian profil pengguna yang menampilkan foto profil, tombol edit, statistik postingan, followers, dan following.
 - Bio singkat pengguna.
 - Galeri foto dengan layout grid 3 kolom dan rasio aspek 1:1.
