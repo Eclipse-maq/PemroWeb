@@ -1,16 +1,15 @@
 ## Tailwind CSS?
 
-Tailwind CSS itu framework CSS yang **berbasis utility class**. Jadi, kita nggak perlu bikin banyak CSS manual, tapi cukup pakai kelas-kelas kecil yang sudah disediakan untuk styling. Contohnya, kalau mau kasih background hitam, tinggal pakai kelas `bg-black`. Kalau mau kasih padding, tinggal pakai `p-6`, dan seterusnya.
+Tailwind CSS itu framework CSS yang **berbasis utility class**. Jadi, kita nggak perlu bikin banyak CSS manual, tapi cukup pakai kelas-kelas kecil yang sudah disediakan untuk styling. Contohnya, kalau mau kasih background hitam, tinggal pakai kelas `bg-black`. Kalau mau kasih padding, tinggal pakai `p-6`, dsb.
 
 Kelebihan Tailwind:
-
 - Cepat bikin tampilan karena tinggal pakai kelas siap pakai.
 - Fleksibel dan mudah dikustomisasi.
 - Cocok buat yang suka ngoding cepat dan modular.
 
 ## Bootstrap CSS?
 
-Bootstrap CSS adalah framework CSS yang sudah lama dan sangat populer. Bootstrap menyediakan:
+Bootstrap CSS adalah framework CSS yang sudah lama dan sangat populer. Ini menyediakan:
 
 - Komponen siap pakai seperti tombol, navbar, grid system, dan lain-lain.
 - Sistem grid yang memudahkan bikin layout responsif.
@@ -18,8 +17,9 @@ Bootstrap CSS adalah framework CSS yang sudah lama dan sangat populer. Bootstrap
 
 ## Implementasi Tailwind CSS
 
-Pada versi Tailwind CSS, styling dilakukan dengan menggunakan kelas-kelas utility yang disediakan oleh Tailwind. Contohnya:
+Pada versi Tailwind CSS, styling dilakukan dengan menggunakan kelas-kelas utility yang disediakan oleh Tailwind. 
 
+Contoh:
 - `bg-black` untuk background hitam.
 - `text-white` untuk warna teks putih.
 - `flex`, `space-x-8`, `grid grid-cols-3 gap-2` untuk layout fleksibel dan grid.
@@ -61,7 +61,6 @@ Karena Bootstrap menggunakan pendekatan komponen dan grid, styling tambahan sepe
 - Dengan belajar keduanya, kita jadi lebih fleksibel dan paham berbagai cara bikin tampilan web.
 
 Halaman profil Instagram yang dibuat terdiri dari beberapa bagian utama:
-
 - Bagian profil pengguna yang menampilkan foto profil, tombol edit, statistik postingan, followers, dan following.
 - Bio singkat pengguna.
 - Galeri foto dengan layout grid 3 kolom dan rasio aspek 1:1.
