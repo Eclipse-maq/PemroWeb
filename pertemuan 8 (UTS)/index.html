@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UTS - PemroWeb</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="section">
+      <h2>Input Data</h2>
+      <form id="Mhsdata">
+        <label for="nama">Nama Lengkap</label><br />
+        <input type="text" id="nama" name="nama" /><br />
+
+        <label for="nim">NIM</label><br />
+        <input type="number" id="nim" name="nim" /><br />
+
+        <label for="semester">Semester</label><br />
+        <input type="text" id="semester" name="semester" /><br />
+
+        <label for="prodi">Program Studi</label><br />
+        <input
+          type="text"
+          id="prodi"
+          name="prody"
+          placeholder="-- Pilih --"
+        /><br />
+
+        <label for="email">Email</label><br />
+        <input type="text" id="email" name="email" /><br />
+        <button id="kirim">KIRIM DATA</button>
+      </form>
+
+      <ul>
+        <li>Isi data mahasiswa dengan benar</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Informasi Pengiriman</h2>
+      <h4>Apa yang terjadi saat anda klik "Kirim Data"?</h4>
+      <ul>
+        <li>Data disampaikan di console</li>
+        <li>Data disimpan di array</li>
+        <li>Jumlah data di update</li>
+        <li>Form akan kosong kembali</li>
+      </ul>
+    </div>
+
+    <div class="section">
+        <h2 class="panel-title">Table Mahasiswa</h2>
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>NO</th>
+                        <th>NAMA</th>
+                        <th>INFO</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Budi Santoso</td>
+                        <td>
+                            Prodi: TI <br>
+                            Semester: 3
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Siti Nurhaliza</td>
+                        <td>
+                            Prodi: SI <br>
+                            Semester: 4
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+    </div>
+    <script src="js.js"></script>
+  </body>
+</html>
